@@ -21,6 +21,8 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import AddNote from './pages/Components/AddNote/AddNote';
+import EditNote from './pages/Components/EditNote/EditNote';
 
 setupIonicReact();
 
@@ -33,6 +35,12 @@ const App: React.FC = () => (
         </Route>
         <Route exact path="/">
           <Redirect to="/home" />
+        </Route>
+        <Route path="/addNote">
+          <AddNote />
+        </Route>
+        <Route path="/editNote/:id">
+          <EditNote/>
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>

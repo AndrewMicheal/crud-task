@@ -1,0 +1,37 @@
+.note-card {
+    padding-bottom: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+    width: 100%!important;
+    padding-top: 3rem;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.input {
+    background-color: #fff!important;
+    margin-left: 1rem!important;
+    --padding-start:15px!important
+}
+.icon-card {
+    box-shadow: none;
+    --border-radius: 0;
+    border: none;
+}
+.text-white {
+    color: #fff!important;
+}
+.item {
+    background-color: transparent!important;
+}
+.btnAdd {
+    padding-left: 15px;
+}

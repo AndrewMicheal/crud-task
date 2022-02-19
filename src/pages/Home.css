@@ -1,0 +1,43 @@
+body {
+    --ion-background-color: #677AC7!important;
+}
+.toolbarTitle {
+    color: #fff!important;
+}
+.mt-3 {
+    margin-top: 3rem!important;
+}
+.home-item {
+    background-color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+.item-title-content {
+   display: flex;
+   align-items: center;
+}
+.checkbox {
+    --ion-background-color: #fff!important;
+    width: 25px!important;
+    height: 25px!important;
+    --border-radius: 50%!important;
+}
+.item-title {
+    margin-left: 15px;
+}
+.btns {
+    position: absolute;
+    right: 0;
+}
+
+.parent {
+    position: relative;
+    display: flex;
+}
+.alert-wrapper {
+    --background: #677AC7!important;
+}
+
+.alert-title , .alert-message , .alert-button {
+    color: #fff!important;
+}
